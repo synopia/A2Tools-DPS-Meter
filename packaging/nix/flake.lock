@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "a2tools-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790904979,
+        "narHash": "sha256-naHCpLmpcY3u+Eli8gv2sTHBU2v/qpcar8/7U7KnpT8=",
+        "owner": "taengu",
+        "repo": "A2Tools-DPS-Meter",
+        "rev": "4f3824dd82a129f4393aba99aaed322b6094d30d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "taengu",
+        "repo": "A2Tools-DPS-Meter",
+        "rev": "4f3824dd82a129f4393aba99aaed322b6094d30d",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1790822859,
+        "narHash": "sha256-69xHQhAeMAD2wDXO7T2pcOZIF9Sga2W+JkmY2a11Ops=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c59305bab2065cfecc4944690d9eedbb56f3a9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "a2tools-src": "a2tools-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
